@@ -178,8 +178,8 @@ span{
     font-size: 11px;
   }
   .dishPicture{
-    width: 320px;
-    height: 200px;
+    width: 300px;
+    height: 180px;
   }
   .orderMain{
     margin-left: 15px;
@@ -189,4 +189,14 @@ span{
   h2{
     font-size: 22px;
   }
+  .dishBox{
+    padding: 7px;
+  }
+  .dishName{
+    font-size: 15px;
+  }
+  .price{
+    font-size: 14px ;
+  }
+  
 }
