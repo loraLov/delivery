@@ -157,6 +157,9 @@ span{
   .right{
     margin-right: 0;
   }
+  .picMain{
+    width: 300px;
+  }
   
   .left{
     margin-left: 0;
