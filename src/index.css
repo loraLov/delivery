@@ -144,3 +144,19 @@ span{
   font-family: 'Varela Round', sans-serif;
   font-size: 14px;
 }
+
+@media all and (max-width:500px){
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .right{
+    display: flex;
+  }
+  .picMain{
+    flex: 1;
+  }
+  .left{
+    align-items: center;
+  }
+}
