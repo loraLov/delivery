@@ -149,6 +149,8 @@ span{
   .container{
     display: flex;
     flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
   }
   .right{
     display: flex;
