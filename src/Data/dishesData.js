@@ -119,31 +119,38 @@ const dishesData = [
         category:'PIZZA'
     },
     {
-        id:18.15,
+        id:18,
         price: 17,
         img:'chickenPizza',
         name:'Chicken Mushroom Pizza',
         category:'PIZZA'
     },
     {
-        id:19.35,
+        id:19,
         price: 13,
         img:'seafoodSoup',
         name:'Creamy Seafood Soup ',
         category:'SOUPS'
     },
     {
-        id:20.25,
+        id:20,
         price: 20,
         img:'lobsterSoup',
         name:'Lobster Soup ',
         category:'SOUPS'
     },
     {
-        id:21.35,
+        id:21,
         price: 13,
         img:'chilli',
         name:'Beef Chilli Soup ',
+        category:'SOUPS'
+    },
+    {
+        id:22,
+        price: 15,
+        img:'calamariSoup',
+        name:'Spicy Calamari Soup ',
         category:'SOUPS'
     },
 
