@@ -175,10 +175,18 @@ span{
     font-size: 15px;
   }
   .cartOrder{
-    font-size: 10px;
+    font-size: 11px;
   }
   .dishPicture{
     width: 320px;
     height: 200px;
+  }
+  .orderMain{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+  }
+  h2{
+    font-size: 22px;
   }
 }
