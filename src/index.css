@@ -159,10 +159,9 @@ span{
   }
   .right{
     margin-right: 0;
-    display: flex;
   }
   .picMain{
-     flex: 1;
+     width: 320px;
   }
   
   .left{
@@ -170,6 +169,16 @@ span{
   }
   .category{
     width: 250px;
-    font-size: 18px;
+    font-size: 14px;
+  }
+  .total{
+    font-size: 15px;
+  }
+  .cartOrder{
+    font-size: 10px;
+  }
+  .dishPicture{
+    width: 320px;
+    height: 200px;
   }
 }
