@@ -3,7 +3,7 @@ import './App.css';
 import AllCategories from './Components/Filter/AllCategories';
 import Cart from './Components/Cart/Cart';
 import Orders from './Components/OrderComponents/Orders';
-import image from './mainPhoto.jpeg';
+import image from './pic4.jpeg';
 import pic from './pic.jpeg'
 
 function App() {

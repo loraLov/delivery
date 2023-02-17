@@ -1,7 +1,10 @@
+
+import Filter from "./Filter";
+
 const AllCategories = () =>{
     return(
-        <div>
-            <p>All Categories</p>
+        <div className="commonCategory">
+          <p>{['APPETIZERS', 'ENTRIES', 'SALADS', 'PIZZA', 'SOUPS', 'ALL'].map(category => <Filter category = {category}/>)}</p>
         </div>
     );
 }
