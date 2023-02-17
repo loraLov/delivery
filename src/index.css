@@ -198,5 +198,10 @@ span{
   .price{
     font-size: 14px ;
   }
-  
+  .cartImage{
+    width: 40px;
+  }
+  .add{
+    width: 100px;
+  }
 }
