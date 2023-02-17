@@ -15,7 +15,6 @@ const Dish = ({dish}) => {
             
             <Quantity quantity = {quantity} setQuantity = {setQuantity} />
             <button className='add' onClick={() => {dispatch(addOrderToCart({dish,quantity}))}}>Add to cart</button>
-            
         </div>
         
     </div>

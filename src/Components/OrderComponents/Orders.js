@@ -8,16 +8,16 @@ const Orders = () =>{
     const selectedCategory = useSelector(getSelectedCategory);
     return(
         <div className="orderMain">
-            <div className="menu">
-        <h2>Menu</h2>
-        </div>
-        <div className="dishMain">
-            {dishesData
-            .filter (dish =>{
+          <div className="menu">
+            <h2>Menu</h2>
+          </div>
+          <div className="dishMain">
+             {dishesData
+              .filter (dish =>{
                 if (selectedCategory ==='ALL') return true;
                 return selectedCategory === dish.category})
-            .map ((dish,index) => (<Dish key = {index} dish = {dish}/>))}
-        </div>
+              .map ((dish,index) => (<Dish key = {index} dish = {dish}/>))}
+          </div>
         </div>
     );
 }

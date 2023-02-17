@@ -11,9 +11,6 @@ const Quantity = ({quantity, setQuantity}) => {
        const newQuantity = quantity + 1;
        setQuantity(newQuantity)
     }
-
-   
-
     return(
         <div>
             <button className="btn" onClick={removeDish}>-</button>

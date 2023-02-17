@@ -7,7 +7,7 @@ const CartItem = ({cartOrder}) => {
     const dispatch = useDispatch();
     console.log(cartOrder)
     return(
-        <div className="cartOrder">
+    <div className="cartOrder">
        <h4>{dishes.name}</h4>
        <p>{cartOrder.quantity} portion(s)</p>
        <p>Price: ${dishes.price * cartOrder.quantity}</p>
@@ -15,7 +15,7 @@ const CartItem = ({cartOrder}) => {
        <img className="delete" src="https://img.icons8.com/windows/512/trash.png" alt='delete'/>
        </span>
        
-        </div>
+    </div>
     )
 }
 export default CartItem;

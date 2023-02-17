@@ -12,7 +12,6 @@ const Cart = () =>{
             </div>
             <p className="total">TOTAL: ${totalSum}</p>
             {cartOrders.map(cartOrder => <CartItem cartOrder = {cartOrder}/> )}
-            
         </div>
     );
 }
