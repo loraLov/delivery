@@ -152,16 +152,14 @@ span{
   .container{
     display: flex;
     flex-direction: column;
-    margin-left: 0;
-    margin-right: 0;
   }
   .right{
     display: flex;
+    margin-right: 0;
   }
-  .picMain{
-     width: 200px;
-  }
+  
   .left{
     align-items: center;
+    margin-left: 0;
   }
 }
