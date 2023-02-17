@@ -26,6 +26,9 @@ h1{
 .left{
   margin-left: 100px;
 }
+.picMain{
+  width:600px;
+}
 .dishPicture{
   width: 400px;
   height: 280px;

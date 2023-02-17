@@ -21,7 +21,7 @@ function App() {
       <Cart/>
     </div>
     <div className='right'>
-      <img className="picMain" src={image} alt='shrimp' width='600px'/>
+      <img className="picMain" src={image} alt='shrimp'/>
     </div>
 </div>
 
