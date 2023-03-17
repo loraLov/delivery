@@ -11,7 +11,7 @@ const Cart = () =>{
             <img className = 'cartImage' src='https://img.icons8.com/external-obvious-line-kerismaker/512/external-shopping-cart-online-shopping-line-obvious-line-kerismaker.png' alt='cart'/>
             </div>
             <p className="total">TOTAL: ${totalSum}</p>
-            {cartOrders.map(cartOrder => <CartItem cartOrder = {cartOrder}/> )}
+            {cartOrders.map(cartOrder => <CartItem key = {cartOrder.id} cartOrder = {cartOrder}/> )}
         </div>
     );
 }
